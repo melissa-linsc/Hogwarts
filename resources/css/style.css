@@ -1,0 +1,13 @@
+body {
+    background-image: url(https://miro.medium.com/max/1400/1*wHsM4lnTwnnkszc-depMbA.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    padding-top: 15vh;
+    color: white;
+    font-size: 40
+}
