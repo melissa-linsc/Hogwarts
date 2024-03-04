@@ -42,6 +42,11 @@ nav ul {
     color: whitesmoke;
 }
 
+.nav:hover {
+    color: #464D60;    
+    cursor: pointer;
+}
+
 .title {
     font-size: 3em;
     font-family: Sequoia, sans-serif;
@@ -186,6 +191,12 @@ nav ul {
     align-items: center;
     gap: 1rem;
 }
+
+.tickets:hover, .see-more-dates:hover {
+    color: rgb(193, 96, 223);    
+    cursor: pointer;
+}
+
 
 .erastour {
     display: flex;
