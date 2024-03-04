@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-size: 16px;
     font-family: 'Neue Hass Medium', sans-serif;
+    overflow-x: hidden;
 }
 
 @font-face {
@@ -36,7 +37,7 @@ nav ul {
     align-items: center;
     list-style-type: none;
     font-size: rem;
-    width: 80%;
+    width: 90%;
     margin: 0;
     color: whitesmoke;
 }
@@ -52,7 +53,46 @@ nav ul {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 40rem;
+    height: 47rem;
+    color: rgb(217, 191, 172);
+    font-family: Caslon, sans-serif;
+    word-spacing: 1rem;
+    letter-spacing: 0.2rem;
+    
+}
+
+.slogan {
+    width: 40%;
+}
+
+#ilove {
+    position: relative;
+    top: 25rem;
+    left: 8rem;
+}
+
+#you {
+    position: relative;
+    top: 25rem;
+    left: 13rem;
+}
+
+#its {
+    position: relative;
+    top: 25rem;
+    left: 4rem;
+}
+
+#ruining {
+    position: relative;
+    top: 25rem;
+    left: 15rem;
+}
+
+#mylife {
+    position: relative;
+    top: 25rem;
+    left: 10rem;
 }
 
 .TTPD {
@@ -107,10 +147,14 @@ nav ul {
     background-repeat: no-repeat;
     background-size:cover;
     width: 100%;
-    height: 40rem;
+    height: 45rem;
     color: whitesmoke;
     padding: 4rem;
 }
+
+/* .erastourDates {
+    background-color: antiquewhite;
+} */
 
 .erastour h1 {
     font-family: Sequoia, sans-serif;
@@ -118,7 +162,11 @@ nav ul {
 }
 
 .tourDates {
-    width: 40%;
+    width: 100%;
+}
+
+.tourDates h2 { 
+    margin:0;
 }
 
 .divider {
@@ -127,6 +175,32 @@ nav ul {
     display: inline-block;
 }
 
-/* .erastour {
-    
-} */
+.location-tickets {
+    display: flex;
+    align-items: center;
+    gap: 20%;
+}
+
+.tickets, .see-more-dates {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.erastour {
+    display: flex;
+    justify-content: space-between;
+}
+
+.erastour-video {
+    display: flex;
+    align-items: end;
+    padding-right: 8rem;
+}
+
+iframe {
+    height: 15rem;
+    width: 25rem;
+    resize: both;
+    overflow: auto;
+  }
