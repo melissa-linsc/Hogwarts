@@ -2,8 +2,9 @@ body {
     margin: 0;
     font-size: 16px;
     font-family: 'Neue Hass Medium', sans-serif;
-    overflow-x: hidden;
 }
+
+/* Fonts */
 
 @font-face {
     font-family: Sequoia;
@@ -19,6 +20,10 @@ body {
     font-family: 'Caslon';
     src: url(OPTICaslonFive.otf);
 }
+
+/* Header  */
+
+/* large nav bar */
 
 header {
     position: absolute;
@@ -49,11 +54,15 @@ nav ul {
 
 /* hamburger nav bar */
 
+/* taylor swift logo for hamburger nav */
+
 .logo {
-    position: absolute;
+    position: relative;
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 100vh;
+    z-index: 2;
+    right: 2rem;
 }
 
 .logo h1 {
@@ -65,7 +74,8 @@ nav ul {
 }
 
 .hamburger-menu {
-    /* position: sticky; */
+    position: sticky;
+    z-index: 100;
 }
 
   .container {
@@ -102,7 +112,7 @@ nav ul {
   }
   
   .navbar .nav-container a:hover{
-     color: purple;
+     color: rgb(217, 191, 172);
   }
   
   .nav-container {
@@ -113,12 +123,12 @@ nav ul {
   
   /* Making the hamburger */
   .nav-container .checkbox {
-    position: absolute;
     display: block;
+    position: absolute;
     height: 32px;
     width: 32px;
-    top: 20px;
-    left: 20px;
+    top: 3rem;
+    left: 3rem;
     z-index: 5;
     opacity: 0;
     cursor: pointer;
@@ -126,11 +136,11 @@ nav ul {
   
   .nav-container .hamburger-lines {
     display: block;
+    position: absolute;
     height: 28px;
     width: 34px;
-    position: absolute;
-    top: 17px;
-    left: 20px;
+    top: 3rem;
+    left: 3rem;
     z-index: 2;
     display: flex;
     flex-direction: column;
@@ -161,14 +171,13 @@ nav ul {
   }
   
   .navbar .menu-items {
-    padding-top: 120px;
     height: 100vh;
     width: 20vh;
     transform: translate(-150%);
     display: flex;
     flex-direction: column;
     margin-left: -40px;
-    padding: 6rem 4rem 3rem 4rem;
+    padding: 8rem 4rem 3rem 4rem;
     transition: transform 0.5s ease-in-out;
     background-color: #464D60;
   }
@@ -238,6 +247,7 @@ nav ul {
     font-family: Sequoia, sans-serif;
 }
 
+/* Landing background */
 
 .landing {
     background-image: url(Images/TTPD2.jpeg);
@@ -287,6 +297,8 @@ nav ul {
     left: 10rem;
 }
 
+/* TTPD Announcement and Countdown section */
+
 .TTPD {
     padding: 1rem;
     display: flex;
@@ -333,6 +345,8 @@ nav ul {
     max-width: 20rem;
     color: whitesmoke;
 }
+
+/* Eras tour section */
 
 .erastour {
     background-image: url(Images/TSTourFullBody.jpeg);
@@ -389,6 +403,8 @@ nav ul {
     display: flex;
     justify-content: space-between;
 }
+
+/* Eras tour movie trailer */
 
 .erastour-video {
     display: flex;
