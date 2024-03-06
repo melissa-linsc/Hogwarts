@@ -318,6 +318,15 @@ nav ul {
     }
 }
 
+@media only screen and (max-width: 500px) {
+    .landing {
+        background-position: -13em;
+    }
+    .logo {
+        padding-right: 6rem;
+    }
+}
+
 /* TTPD Announcement and Countdown section */
 
 .TTPD {
@@ -481,13 +490,11 @@ nav ul {
     width: 100%;
     /* height: 100vh; */
     color: whitesmoke;
-    padding: 2rem 4rem 4rem 4rem;
-    overflow-y: hidden;
 }
 
-/* .erastourDates {
-    background-color: antiquewhite;
-} */
+.erastourDates {
+    padding: 2rem 4rem;
+}
 
 .erastour h1 {
     font-family: Sequoia, sans-serif;
