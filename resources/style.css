@@ -337,6 +337,7 @@ nav ul {
 
 .countdown {
     display: flex;
+    justify-content: center;
     width: 80%;
     max-width: 60vh;
 }
@@ -382,7 +383,7 @@ nav ul {
 .presave {
     display: flex;
     justify-content: center;
-    width: 80%;
+    width: 90%;
 }
 
 .presave button {
@@ -481,6 +482,7 @@ nav ul {
     /* height: 100vh; */
     color: whitesmoke;
     padding: 2rem 4rem 4rem 4rem;
+    overflow-y: hidden;
 }
 
 /* .erastourDates {
