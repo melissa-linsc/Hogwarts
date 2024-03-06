@@ -544,6 +544,7 @@ nav ul {
     display: flex;
     align-items: end;
     padding-right: 8rem;
+    padding-bottom: 4rem;
 }
 
 iframe {
