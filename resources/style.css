@@ -312,16 +312,16 @@ nav ul {
     left: 10rem;
 }
 
-/* @media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
     .landing {
         background-position: -4rem;
     }
-} */
+}
 
 @media only screen and (max-width: 500px) {
-    /* .landing {
+    .landing {
         background-position: -13em;
-    } */
+    }
     .logo {
         padding-right: 6rem;
     }
