@@ -75,6 +75,7 @@ nav ul {
     font-family: Sequoia, sans-serif;
     font-size: 3rem;
     font-weight: 100;
+    margin: 2.5rem 0rem;
 }
 
 @media only screen and (max-width: 550px) {
