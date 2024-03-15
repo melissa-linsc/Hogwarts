@@ -565,7 +565,7 @@ nav ul {
     padding-bottom: 4rem;
 }
 
-iframe {
+.erastour-video iframe {
     height: 15rem;
     width: 50vh;
     resize: both;
