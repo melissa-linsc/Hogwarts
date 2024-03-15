@@ -662,6 +662,7 @@ nav ul {
     padding-bottom : 2rem;
     color: white;
     font-size: 3rem;
+    font-family: Caslon;
 }
 
 @media only screen and (min-width: 1000px) {
