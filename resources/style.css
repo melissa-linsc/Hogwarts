@@ -566,13 +566,13 @@ nav ul {
 }
 
 .erastour-video iframe {
-    height: 15rem;
-    width: 50vh;
+    height: 20rem;
+    width: 40vh;
     resize: both;
     overflow: auto;
   }
 
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 1100px) {
     .erastour-video {
         display: none;
     }
