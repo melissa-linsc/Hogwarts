@@ -324,7 +324,7 @@ nav ul {
 
 @media only screen and (max-width: 500px) {
     .landing {
-        background-position: -13em;
+        background-position: -8em;
     }
     .logo {
         padding-right: 6rem;
@@ -433,15 +433,23 @@ nav ul {
 .TTPD-shop {
     background-color: #8B857D;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2rem;
+}
+
+.TTPD-shop h1 {
+    font-family: Caslon, sans-serif;
+    text-align: center;
 }
 
 .ttpd-shop-items {
     display: flex;
     flex-direction: row;
     overflow: auto;
+    width: 90%;
+    padding-top: 1rem;
 }
 
 .ttpd-shop-item {
@@ -588,3 +596,55 @@ iframe {
     }
   }
 
+  /* Eras tour merch */
+
+  .erastour-merch {
+    background-color: whitesmoke;
+    font-family: Caslon;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .erastour-merch h1 {
+    padding: 2rem;
+    font-size: 3rem;
+  }
+
+  .erastour-merch button {
+    padding: 1rem;
+    border-radius: 2rem;
+    margin: 2rem 2rem;
+    width: 50%;
+    border: none;
+    background-color: #26211C;
+    max-width: 20rem;
+    color: whitesmoke;
+}
+
+.erastour-merch button:hover {
+    background-color:#8B857D;
+}
+
+.erastour-merch img {
+    width: 100%;
+    max-width: 1000px;
+    min-width: 380px;
+}
+
+/* Directed Projects */
+
+.directed-projects {
+    background-color: #26211C;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #8B857D;
+    height: 20vh;
+}
