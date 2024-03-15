@@ -639,8 +639,63 @@ nav ul {
 
 .directed-projects {
     background-color: #26211C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
 }
 
+.directed-videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.directed-videos iframe {
+    padding: 1rem;
+}
+
+.directed-projects h1 {
+    padding-bottom : 2rem;
+    color: white;
+    font-size: 3rem;
+}
+
+@media only screen and (min-width: 1000px) {
+    .directed-videos {
+        display: grid;
+        grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+        gap: 1rem;
+    }
+    .directed-videos iframe {
+        width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+    }
+    #antihero {
+        grid-area: 1 / 1 / span 1 / span 1;
+    }
+    #alltoowell {
+        grid-area: 1 / 2 / span 1 / span 2;
+    }
+    #cardigan {
+        grid-area: 2 / 2 / span 1 / span 2;
+    }
+    #icanseeyou {
+        grid-area: 2 / 1 / span 1 / span 1;
+    }
+    #bejeweled {
+        grid-area: 3 / 1 / span 1 / span 1;
+    }
+    #theman {
+        grid-area: 3 / 2 / span 1 / span 1;
+    }
+    #karma {
+        grid-area: 3 / 3 / span 1 / span 1;
+    }
+}
 
 /* footer */
 
